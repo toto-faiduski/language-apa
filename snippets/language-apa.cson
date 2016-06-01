@@ -14,3 +14,6 @@
   'box':
     'prefix': 'box'
     'body': 'box ${1:xsize} ${2:ysize} at ${3:x} ${4:y} lead ${5:pels} ${6:down|back|up};$7'
+  'page':
+    'prefix': 'page'
+    'body': 'page ${1:xsize} ${2:inch|cm|mm|pels|point} ${3:ysize} ${4:inch|cm|mm|pels|point};$5'

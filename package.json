@@ -2,7 +2,7 @@
   "name": "language-apa",
   "main": "./lib/language-apa",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Adds syntax highlighting and snippets to APA files in Atom",
   "keywords": [
   ],
   "activationCommands": {

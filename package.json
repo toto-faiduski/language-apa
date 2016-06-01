@@ -1,10 +1,9 @@
 {
   "name": "language-apa",
   "main": "./lib/language-apa",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Adds syntax highlighting and snippets to APA files in Atom",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "language-apa:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

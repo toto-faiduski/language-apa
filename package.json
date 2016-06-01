@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "language-apa:toggle"
   },
-  "repository": "https://github.com/atom/language-apa",
+  "repository": "https://github.com/toto-faiduski/language-apa",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

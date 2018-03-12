@@ -101,14 +101,14 @@
 
 
 
-  {
-    'match': '\\b(asm|__asm__|auto|bool|_Bool|char|_Complex|double|enum|float|_Imaginary|int|long|short|signed|struct|typedef|union|unsigned|void)\\b'
-    'name': 'storage.type.apa'
-  }
-  {
-    'match': '\\b(const|extern|register|restrict|static|volatile|inline)\\b'
-    'name': 'storage.modifier.apa'
-  }
+  #{
+  #  'match': '\\b(asm|__asm__|auto|bool|_Bool|char|_Complex|double|enum|float|_Imaginary|int|long|short|signed|struct|typedef|union|unsigned|void)\\b'
+  #  'name': 'storage.type.apa'
+  #}
+  #{
+  #  'match': '\\b(const|extern|register|restrict|static|volatile|inline)\\b'
+  #  'name': 'storage.modifier.apa'
+  #}
   {
     'comment': 'common C constant naming idiom -- kConstantVariable'
     'match': '\\bk[A-Z]\\w*\\b'

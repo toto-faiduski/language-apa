@@ -108,7 +108,7 @@
   # Keywords
   # ----------------------------------------------------------
   {
-    'match': '\\b(at|auto)\\b'
+    'match': '\\b(angle|at|auto)\\b'
     'name': 'keyword.other.apa'
   }
   {
@@ -116,7 +116,7 @@
     'name': 'keyword.other.apa'
   }
   {
-    'match': '\\b(ceil|chr|codepage|cols|country|cm)\\b'
+    'match': '\\b(ceil|chr|codepage|color|cols|country|cm)\\b'
     'name': 'keyword.other.apa'
   }
   {
@@ -124,7 +124,7 @@
     'name': 'keyword.other.apa'
   }
   {
-    'match': '\\b(filedown|fileinfo|fileup|fix|floor|from)\\b'
+    'match': '\\b(filedown|fileinfo|fileup|fix|floor|font|front|from)\\b'
     'name': 'keyword.other.apa'
   }
   {
@@ -148,11 +148,11 @@
     'name': 'keyword.other.apa'
   }
   {
-    'match': '\\b(pels|plus|point|pointsize)\\b'
+    'match': '\\b(part|pels|plus|point|pointsize)\\b'
     'name': 'keyword.other.apa'
   }
   {
-    'match': '\\b(repetitive|right)\\b'
+    'match': '\\b(recto|repetitive|resize|right)\\b'
     'name': 'keyword.other.apa'
   }
   {
@@ -160,7 +160,7 @@
     'name': 'keyword.other.apa'
   }
   {
-    'match': '\\b(type)\\b'
+    'match': '\\b(thick|type)\\b'
     'name': 'keyword.other.apa'
   }
   {
@@ -168,7 +168,7 @@
     'name': 'keyword.other.apa'
   }
   {
-    'match': '\\b(varonfile|vect)\\b'
+    'match': '\\b(varonfile|vect|verso)\\b'
     'name': 'keyword.other.apa'
   }
   {
@@ -190,6 +190,10 @@
   # ----------------------------------------------------------
   # Constant
   # ----------------------------------------------------------
+  {
+    'match': '\\b(AFP_PAGE_X_SIZE|AFP_PAGE_Y_SIZE)\\b'
+    'name': 'constant.language.apa'
+  }
   {
     'match': '\\b(CURRENT_X|CURRENT_Y|CURRENT_Y_PACK|CURSIDE)\\b'
     'name': 'constant.language.apa'

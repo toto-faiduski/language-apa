@@ -99,6 +99,10 @@
     'name': 'keyword.control.apa'
   }
 
+  {
+    'match': '\\b(name|pointsize|mm|inch|pels|manufacturer|weight)\\b'
+    'name': 'keyword.other.apa'
+  }
 
 
   {

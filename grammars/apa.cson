@@ -22,6 +22,11 @@
   #  'match': '\\b(break|case|continue|default|do|else|for|goto|if|_Pragma|return|switch|while)\\b'
   #  'name': 'keyword.control.apa'
   #}
+
+
+  # ----------------------------------------------------------
+  # First level keywords
+  # ----------------------------------------------------------
   {
     'match': '\\b(adjustement|adjustementmask|afpfile|afpmode|afppage|afpresource|area|areabox)\\b'
     'name': 'keyword.control.apa'
@@ -31,7 +36,7 @@
     'name': 'keyword.control.apa'
   }
   {
-    'match': '\\b(camera|cascade|cat|comp|customercode|continuoussupport)\\b'
+    'match': '\\b(camera|cascade|cat|chooseimage|comp|customercode|continuoussupport)\\b'
     'name': 'keyword.control.apa'
   }
   {
@@ -59,11 +64,11 @@
     'name': 'keyword.control.apa'
   }
   {
-    'match': '\\b(line|lineto|look|low|lrtrim|ltrim)\\b'
+    'match': '\\b(language|line|lineto|look|low|lrtrim|ltrim)\\b'
     'name': 'keyword.control.apa'
   }
   {
-    'match': '\\b(make|makecolor|makefont|makeimage|makeoverlay|makepagesgroup|messagelog|move|moveto|multifile|multileafinfo)\\b'
+    'match': '\\b(make|makecolor|makefont|makeimage|makeoverlay|makepagesgroup|messagelog|move|moveto|multifile|multileafinfo|multiread)\\b'
     'name': 'keyword.control.apa'
   }
   {
@@ -71,7 +76,7 @@
     'name': 'keyword.control.apa'
   }
   {
-    'match': '\\b(pack|pagedef|pageorigin|paper|PATH_APA|PATH_BATQUERY|PATH_DAT|page|pagetype|PHYSICALRECNO|pie|printerduplexmode|PRINTER_RESOLUTION|putimage)\\b'
+    'match': '\\b(pack|pagedef|pageorigin|paper|PATH_APA|PATH_BATQUERY|PATH_DAT|page|pagetype|PHYSICALRECNO|pie|printcontroloff|printerduplexmode|PRINTER_RESOLUTION|putimage)\\b'
     'name': 'keyword.control.apa'
   }
   {
@@ -99,16 +104,102 @@
     'name': 'keyword.control.apa'
   }
 
+  # ----------------------------------------------------------
+  # Second level keywords
+  # ----------------------------------------------------------
   {
-    'match': '\\b(name|pointsize|mm|inch|pels|manufacturer|weight)\\b'
+    'match': '\\b(at|auto)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(back|book)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(codepage|cols|country|cm)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(datafilesort|def|directorypath|down)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(FILE|filedown|fileinfo|fileup|fix|from)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(inch|init|into|intofile|intovar])\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(list)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(manufacturer|micr|mode_y|mode_z|mm)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(name|nodirbddcontrol|nosort)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(occurs|omitindex|only|onlyforview)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(pels|plus|point|pointsize)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(repetitive)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(server|size|stack|step)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(type)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(undpos|undsize|unicode|up)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(varonfile|vect)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(weight)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(xaddpel|xresize)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(yaddpel)\\b'
     'name': 'keyword.other.apa'
   }
 
 
+
+
+  # ----------------------------------------------------------
+  # Constant
+  # ----------------------------------------------------------
   {
-    'match': '\\b(NULL|true|false|TRUE|FALSE)\\b'
+    'match': '\\b(FIRST_TIME)\\b'
     'name': 'constant.language.apa'
   }
+
+
+
+
+
+
   {
     'include': '#sizeof'
   }

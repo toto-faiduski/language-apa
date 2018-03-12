@@ -20,7 +20,7 @@
   }
   #{
   #  'match': '\\b(break|case|continue|default|do|else|for|goto|if|_Pragma|return|switch|while)\\b'
-  #  'name': 'keyword.control.apa'
+  #  'name': 'entity.name.function.apa'
   #}
 
 
@@ -29,79 +29,79 @@
   # ----------------------------------------------------------
   {
     'match': '\\b(adjustement|adjustementmask|afpfile|afpmode|afppage|afpresource|area|areabox)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(bannerinformation|barcode|batinformation|batquery|beginmedium|beginpage|bookmark|box|breakpoint)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(camera|cascade|cat|chooseimage|comp|customercode|continuoussupport)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(datamatrix|display|dossiertype)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(else|endif|endoverlay|endmedium|endpage|endpagesgroup|endusing|endwhile|eval|exit|expr)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(Fct_AuxCityItems|Fct_DateCapture|Fct_DesCityItems|Fct_ManualFont|Fct_NumDayOfYear|Fct_SepConcat|file|filedown|fileup|FILE|FILE_APA|FILE_BATQUERY|FILE_DAT|filecontrolsystem|FILLER|FIRST_TIME|FOOT|formate)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(gauge|generatefile|generateoutputfile|generatefileged|getpagetype|goto)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(if|ifcustomersample|ifcutsheet|ifcontinuous|ifinternalsample|image|imagedirectory|include|integritycode|integralitycode)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(jog)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(language|line|lineto|look|low|lrtrim|ltrim)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(make|makecolor|makefont|makeimage|makeoverlay|makepagesgroup|messagelog|move|moveto|multifile|multileafinfo|multiread)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(nbocc|NB_REC_IN_FILE|NB_REC_IN_SUBBATCH|newpage|nop|num|NUMAREA|NUMLEAF|numcmd|numformat|numtrim)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(pack|pagedef|pageorigin|paper|PATH_APA|PATH_BATQUERY|PATH_DAT|page|pagetype|PHYSICALRECNO|pie|printcontroloff|printerduplexmode|PRINTER_RESOLUTION|putimage)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(qrcode)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(readresequence|RECNO|rect|repcode|repredsort|reset|roundrect|rule|rtrim)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(samplequery|size|sizeof|sort|staple)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(TALK|text|textformat|then|TIME|tle|traceif|translate|tray)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(unit|using)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
   {
     'match': '\\b(warning|while)\\b'
-    'name': 'keyword.control.apa'
+    'name': 'entity.name.function.apa'
   }
 
   # ----------------------------------------------------------

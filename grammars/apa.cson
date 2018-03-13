@@ -240,14 +240,14 @@
       '0':
         'name': 'punctuation.definition.string.end.apa'
     'name': 'string.quoted.double.apa'
-    'patterns': [
-      {
-        'include': '#string_escaped_char'
-      }
-      {
-        'include': '#string_placeholder'
-      }
-    ]
+#    'patterns': [
+#      {
+#        'include': '#string_escaped_char'
+#      }
+#      {
+#        'include': '#string_placeholder'
+#      }
+#    ]
   }
   {
     'begin': '\''
@@ -259,11 +259,11 @@
       '0':
         'name': 'punctuation.definition.string.end.apa'
     'name': 'string.quoted.single.apa'
-    'patterns': [
-      {
-        'include': '#string_escaped_char'
-      }
-    ]
+#    'patterns': [
+#      {
+#        'include': '#string_escaped_char'
+#      }
+#    ]
   }
   {
     'begin': '^\\s*#\\s*(include)\\b\\s+'

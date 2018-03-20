@@ -54,7 +54,7 @@
     'name': 'entity.name.function.apa'
   }
   {
-    'match': '\\b(make|makecolor|makefont|makeimage|makeoverlay|makepagesgroup|messagelog|move|moveto|multifile|multileafinfo|multiread)\\b'
+    'match': '\\b(make|makecolor|makecolorspace|makefont|makeimage|makeoverlay|makepagesgroup|messagelog|move|moveto|multifile|multileafinfo|multiread)\\b'
     'name': 'entity.name.function.apa'
   }
   {
@@ -94,7 +94,7 @@
   # Keywords
   # ----------------------------------------------------------
   {
-    'match': '\\b(angle|at|auto)\\b'
+    'match': '\\b(absolute|angle|at|auto)\\b'
     'name': 'keyword.other.apa'
   }
   {
@@ -102,7 +102,7 @@
     'name': 'keyword.other.apa'
   }
   {
-    'match': '\\b(ceil|chr|codepage|color|cols|country|cm)\\b'
+    'match': '\\b(ceil|chr|cmt|codepage|color|cols|country|cm)\\b'
     'name': 'keyword.other.apa'
   }
   {
@@ -114,11 +114,15 @@
     'name': 'keyword.other.apa'
   }
   {
-    'match': '\\b(inch|init|into|intofile|intovar])\\b'
+    'match': '\\b(hgt|hq|hqkmin)\\b'
     'name': 'keyword.other.apa'
   }
   {
-    'match': '\\b(lead|left|list)\\b'
+    'match': '\\b(inch|incmyk|ingray|init|inrgb|into|intofile|intovar])\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(lead|left|list|lq|lqkmin)\\b'
     'name': 'keyword.other.apa'
   }
   {
@@ -126,23 +130,27 @@
     'name': 'keyword.other.apa'
   }
   {
-    'match': '\\b(name|nodirbddcontrol|nosort)\\b'
+    'match': '\\b(name|nodirbddcontrol|none|nosort)\\b'
     'name': 'keyword.other.apa'
   }
   {
-    'match': '\\b(occurs|off|omask|omitindex|only|onlyforview)\\b'
+    'match': '\\b(oca|occurs|off|omask|omitindex|only|onlyforview|outputstandard)\\b'
     'name': 'keyword.other.apa'
   }
   {
-    'match': '\\b(part|pels|plus|point|pointsize)\\b'
+    'match': '\\b(part|pels|perceptual|plus|point|pointsize)\\b'
     'name': 'keyword.other.apa'
   }
   {
-    'match': '\\b(recto|repetitive|resize|right)\\b'
+    'match': '\\b(quality)\\b'
     'name': 'keyword.other.apa'
   }
   {
-    'match': '\\b(server|size|stack|step)\\b'
+    'match': '\\b(recto|relative|rendering|repetitive|resize|right)\\b'
+    'name': 'keyword.other.apa'
+  }
+  {
+    'match': '\\b(saturation|server|size|sq|sqkmin|stack|step)\\b'
     'name': 'keyword.other.apa'
   }
   {
